@@ -65,7 +65,16 @@ You can think of each migration as being a new 'version' of the database. A sche
 
 Research and define the following terms to the best of your ability.
 - RESTful routes
-- JSON
+GET: retrieve a resource from a url
+POST: create a new resource
+PUT: update an entire resource
+PATCH: update part of a resource
+DELETE: remove/destroy a resource
+
+- JSON 
+JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa)
 - API
+APIs are a set of functions and procedures that allow for the creation of applications that access data and features of other applications, services or operating systems. API stands for application programming interface, a concept that applies everywhere from command-line tools to enterprise Java code to Ruby on Rails web apps. An API is a way to programmatically interact with a separate software component or resource.
 - Endpoints
+Simply put, an endpoint is one end of a communication channel. When an API interacts with another system, the touchpoints of this communication are considered endpoints. For APIs, an endpoint can include a URL of a server or service. Each endpoint is the location from which APIs can access the resources they need to carry out their function.
 - Strong params
